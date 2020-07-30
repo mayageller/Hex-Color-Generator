@@ -1,0 +1,58 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: all 0.5s ease;
+  text-align: center;
+  color: navy;
+}
+
+ body {
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAW8AAACJCAMAAADUiEkNAAAAxlBMVEX/mqLHzur/t7K16tfi8Mv/2sH/mKH/sq//tbH/zLv/2cH24cSy6ti45drIzOve8Mz/38WZxrbGjorEdn3fh47xkZnhoZ3Tl5PjwqyrtZnW48CLtKWx5dKutc2eo7n/u7bWt6Koj3+bpYt6npGVf3Ch0L+iqL/PfYPyranDppPMr5vG0rHQ3bvE0LCkr5SSvK2RlqqrZ21+TE+4g4C1wKJcd26Dqpxrin+Gi558gZK8wt2fYGWneHXKkY22m4nr+dNwdYSJknue1/3+AAACzUlEQVR4nO3WWZOaQBSGYXBJJmaDRpRFFEEYcUUh7qMz//9Ppc3MpVbZepNK3q+7Tvf1U6f6tKY9kE+fK/fn6Uv9/jS+1h7Iz2/V+/P9h/5AHuHGG2+88cYbb7zxxhtvvPHGG2+88cYbb7zxxhtvvPHGG2+88cYbb7zxxhtvvPHGG2+88cYbb7zxxhtvvPHGG2+88cYbb7zxxhtvvPHGG2+88cYbb7zxxhtvvPHGG2+88cYbb7zxxhtvvPHGG2+88cYbb7zxxhtvvPHGG2+88cYbb7zxxhtvvPHGG2+88cYbb7zxxhtvvPHGG2+88cYbb7zxxhtvvPHGG2+88cYbb7zxxhtvvPHGG2+88cYbb7zxxhtvvPHGG2+88cYbb7zxxhtvvPHGG2+88cYbb7zxxhtvvP9B755M5bwrH1vF2zDqxrm8X/8X72eradlNW2tqcttNJe9eW7REqy2G7VZLDCvty+DXvLORkznZyKg7xmhkNBpK3mN3Mp5M3PHU82be2PWUvE2/mpgdf15NqrKYppp3HgSpHuR6txvkgR4oeltyadZCW9raUp62knfRE0+9YihaRVE5iPZl8Cvejcw4yhKGYT90wsbAUfE+RbWaG5W1iTuLTm5Ui5S84848Tsyk2vnVWSV+Z63kvdG7u+0u1/NUXvV0q+i9tyzLtpbWwrL2z/ZCrb8PoiiGB/EieoU4VA5q78kgzDJnZGSDwVG6Omreb6VXluXM9Vz35EVldFLxXvu+GZtxsopXfnWVqPV3ru+kuOzwbbDp7l5fd4rviVyaxNbOe2+peYvei0Qv2mdvcZBPikp/h0ZmNAZ9JzSO/X5dzbsWudO3cno+3Zlkd9X6e2XGcRLPJfY67viXua95p/km2OmbTbrp5nma6l0175tydV7+GZPvQ/NclfpbjsmPSWncNS8vt/Qt3rflL/yf3BT+g3jjjTfej3j/BuxVQsjZ+VwbAAAAAElFTkSuQmCC');
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+      }
+
+img{
+  opacity: 0.5;
+}
+
+button {
+  background: pink;
+  border: 1px solid navy;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+h1 {
+  border-right: solid 3px pink;
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 24px;
+  color: pink;
+  margin: 16px;
+}
+
+/* Animation */
+h1 {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0px;}
+  to{width: 1350px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: pink;}
+  to{border-right-color: transparent;}
+}
